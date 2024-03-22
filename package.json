@@ -1,0 +1,17 @@
+{
+  "name": "project-bikes-back-end-code",
+  "version": "1.0.0",
+  "description": "back-end code for my project, hopefuly it works!",
+  "main": "index.js",
+  "scripts": {
+    "test": "duke"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.2"
+  }
+}
