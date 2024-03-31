@@ -1,7 +1,8 @@
 const http=require('http');
+
 const app=require('./app');
 
-const port=3001;
+const port=80;
 
 const server=http.createServer(app);
 

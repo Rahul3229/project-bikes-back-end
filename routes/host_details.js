@@ -33,4 +33,19 @@ router.post('/',(req,res,next)=>{
     });
 });
 
+
+
+router.get("/:city_name",(req,res,next)=>{
+
+    const city_name_code=req.params.city_name;
+    schema.findById(city_name_code).exec().then(doc=>{
+        console.log(doc);
+        res.status(200).json(doc);
+    })
+    .catch(err=>console.log(err));
+
+});
+
+
+
 module.exports= router;
